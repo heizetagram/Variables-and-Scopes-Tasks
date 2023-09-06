@@ -164,12 +164,12 @@ public class Opg6_fitnessCenterSubscription {
 
 
     public void birthMonth(int month, double finalPrice) { //Creates a void method with two parameters, and prints the following...
-        System.out.printf("Next %s, you will receive a 15%% discount, bringing the membership cost down to %.0f kr. that month.", intToMonth(month), birthMonthDiscount(finalPrice));
+        System.out.printf("Next %s, you will receive a 15%% birthday discount, bringing the membership cost down from %.0f to %.0f kr. that month.", intToMonth(month), finalPrice, birthMonthDiscount(finalPrice));
     }
 
     public int threeMonths(int month, double finalPrice) { //Creates an int method with two parameters
         int finalMonth; //Creates an int var
-        System.out.printf("Three months later, in %s, you will receive a 5%% discount on your membership, reducing the cost to %.0f kr.", intToMonth(month + 3), threeMonthDiscount(finalPrice));
+        System.out.printf("Three months later, in %s, you will receive a 5%% discount on your membership, reducing the cost from %.0f to %.0f kr.", intToMonth(month + 3), finalPrice, threeMonthDiscount(finalPrice));
         finalMonth = month; //Makes user input's month, the 'final' month
         return finalMonth; //Returns 'finalMonth' as an int
     }
@@ -181,7 +181,7 @@ public class Opg6_fitnessCenterSubscription {
 
 
     public void annual(int finalMonth, double finalPrice) { //Creates a void method with two parameters and prints the following...
-        System.out.printf("%nBeginning next year, your membership will be priced at %.0f kr. every %s.", annualDiscount(finalPrice), intToMonth(finalMonth));
+        System.out.printf("%nStarting the following year, you will receive a 25%% annual discount, and your membership will be priced at %.0f kr. every %s.", annualDiscount(finalPrice), intToMonth(finalMonth));
     }
 
 } //Main ends
