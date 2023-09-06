@@ -2,9 +2,9 @@
 Print my names (metoder)
  */
 
-public class Opg2 {
+public class Opg2_printMyNames {
     public static void main(String[] args) {
-        new Opg2().run(); //Creates new instance of 'Opg6' class that invokes 'run' method.
+        new Opg2_printMyNames().run(); //Creates new instance of 'Opg6' class that invokes 'run' method.
 
     }
 

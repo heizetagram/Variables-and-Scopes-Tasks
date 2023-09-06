@@ -4,9 +4,9 @@ BMI Calculator (argumenter og parametre)
 
 import java.util.Scanner;
 
-public class Opg5 {
+public class Opg5_BMICalculator {
     public static void main(String[] args) {
-        new Opg5().run(); //Creates new instance of 'Opg5' class that invokes 'run' method
+        new Opg5_BMICalculator().run(); //Creates new instance of 'Opg5' class that invokes 'run' method
     }
 
     public void run() { //Creates void run method

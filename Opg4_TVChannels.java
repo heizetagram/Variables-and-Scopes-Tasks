@@ -4,9 +4,9 @@ TV Channels (variabler og scope)
 
 import java.util.Scanner;
 
-public class Opg4 {
+public class Opg4_TVChannels {
     public static void main(String[] args) {
-        new Opg4().run(); //Creates a new instance of 'Opg4' class and calls its 'run' method.
+        new Opg4_TVChannels().run(); //Creates a new instance of 'Opg4' class and calls its 'run' method.
     }
 
     public void run() { //Creates a new void method

@@ -4,9 +4,9 @@ Donald's nephews (metoder)
 
 import java.util.Random;
 
-public class Opg3 {
+public class Opg3_donaldsNephews {
     public static void main(String[] args) {
-        new Opg3().run(); //Creates new instance of 'Opg3' class that invokes 'run' method.
+        new Opg3_donaldsNephews().run(); //Creates new instance of 'Opg3' class that invokes 'run' method.
     }
 
     public void run() {

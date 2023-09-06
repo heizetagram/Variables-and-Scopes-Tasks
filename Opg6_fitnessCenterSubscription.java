@@ -4,9 +4,9 @@ Fitness center subscription (returværdier)
 
 import java.util.Scanner;
 
-public class Opg6 {
+public class Opg6_fitnessCenterSubscription {
     public static void main(String[] args) {
-        new Opg6().run(); //Creates new instance of 'Opg6' class that invokes 'run' method.
+        new Opg6_fitnessCenterSubscription().run(); //Creates new instance of 'Opg6' class that invokes 'run' method.
 
     }
 
