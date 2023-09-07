@@ -121,23 +121,23 @@ public class Opg6_fitnessCenterSubscription {
     //----------------MONTH METHODS----------------\\
     public String intToMonth(int month) {
         String monthName = "";
-        switch (month) {
-            case 1, 13 -> { //13 is added, because some methods require using the same month since the month scale doesn't return to 1 after 12. Same rules apply for the following cases...
+        switch (month % 12) {
+            case 1 -> { //12 does not divide evenly into 1, so 1 is the remainder
                 return "January";
             }
-            case 2, 14 -> {
+            case 2 -> {
                 return "February";
             }
-            case 3, 15 -> {
+            case 3 -> {
                 return "March";
             }
-            case 4, 16 -> {
+            case 4 -> {
                 return "April";
             }
-            case 5, 17 -> {
+            case 5 -> {
                 return "May";
             }
-            case 6, 18 -> {
+            case 6 -> {
                 return "June";
             }
             case 7 -> {
@@ -155,7 +155,7 @@ public class Opg6_fitnessCenterSubscription {
             case 11 -> {
                 return "November";
             }
-            case 12 -> {
+            case 0 -> { //12 divides evenly into 12 once, so the remainder is 0
                 return "December";
             }
         }
